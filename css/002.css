@@ -1,0 +1,182 @@
+@charset "UTF-8";
+*{
+    margin: 0px auto;
+    padding: 0px;
+    color: #000000;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Neue Haas Unica", sans-serif;
+    font-stretch: 100%;
+    font-weight: 400;
+    font: mLbyONA9, sans-serif;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+img{
+    border: 0px;
+}
+body{
+    width: 1440px;
+    height: 1550px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#head{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+.logo{
+    width: 400px;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 725px;
+    height: 309px;
+    width: 50%;
+    height: 50%;
+}
+.nav{
+    margin-top: 30px;
+    width: 250px;
+    height: 75px;
+    float: right;
+    z-index: 9;
+}
+.nav>li{
+    width: 80px;
+    height: 75px;
+    float: left;
+    font-size: 25px;
+    margin: 5px 10px;
+    text-align: center;
+    line-height: 55px;
+}
+.nav>li:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav img{
+    width: 60px;height: 60px;
+}
+
+#contents {
+    width: 100%;
+    height: 1200px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.product-details {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.product-image img {
+    width: 600px;
+    height: auto;
+    margin:200px 0;
+}
+
+.product-info h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.product-info{
+    width: 100%;
+    height: 400px;
+    float: right;
+    margin: 250px 50px;
+}
+.price {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.size-selection {
+    margin-bottom: 20px;
+}
+
+.size-selection label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.size-selection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.size-selection>select{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.size-guide {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#foot{
+    width: 100%;
+    float: left;
+    height: 200px;
+}
+.imformation{
+    width: 25%;
+    height: 200px;
+    float: left;
+    text-align: left;
+}
+.imformation li{
+    padding-left: 15px;
+    line-height: 38px;
+}
+.copyright{
+    width: 50%;
+    height: 200px;
+    float: left;
+    line-height: 250px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.guide{
+    width: 25%;
+    height: 200px;
+    float: left;
+    text-align: right;
+    margin-top: 20px;
+}
+.guide li{
+    line-height: 38px;
+    padding-right: 15px;
+}
